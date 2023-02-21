@@ -29,9 +29,9 @@
                 <label for="student-name">Name:</label>
                 <input type="text" 
                        name="student-name" 
-                       id="student-name" 
-                       placeholder="e.g. Quincy Larson" />
+                       id="student-name" />
               </div>
+              
               <div class="info">
                 <label for="student-email">Email:</label>
                 <input type="email" 
@@ -51,9 +51,12 @@
               <h2 id="html-questions">HTML</h2>
               <div class="question-block">
                 <p>1</p>
-                <fieldset class="question" >
-                  <legend>true/false question</legend>
-                  <ul>
+                <fieldset class="question" name="html-question-one">
+                  <legend>
+                    The legend element represents a caption for the content of its
+                    parent fieldset element
+                  </legend>
+                  <ul class="answers-list">
                     <li></li>
                     <li></li>
                   </ul>
@@ -61,9 +64,12 @@
               </div>
               <div class="question-block">
                 <p>2</p>
-                <fieldset class="question">
-                  <legend>true/false question</legend>
-                  <ul>
+                <fieldset class="question" name="html-question-two">
+                  <legend>
+                    A label element nesting an input element is required to have a
+                    for attribute with the same value as the input's id
+                  </legend>
+                  <ul class="answers-list">
                     <li></li>
                     <li></li>
                   </ul>
