@@ -50,9 +50,17 @@ body {
 li > a {
  color:white;
  text-decoration:none;
+}
  main {
   padding-top: 50px;
  }
+ section {
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:0;
+  margin-bottom:10px;
+  max-width:600px;
 }
 nav > ul > li:hover {
 cursor:pointer;
@@ -64,7 +72,12 @@ h1 ,h2 {
     }
     h2 {
       
-        border-bottom: 4px solid #dfdfe2;
+      border-bottom: 4px solid #dfdfe2;
+      margin-top: 0px;
+      padding-top: 60px;
+      }
+      .info {
+        padding: 10px 0 0 5px;
       }
 p::before {
   content: "Question #";
