@@ -35,6 +35,12 @@ body {
       padding: 0.2rem;
       display: block;
     }
+    li > a {
+
+ color:white;
+
+}
+
     h1 ,h2 {
       font-family: Verdana, sans-serif;
     }
