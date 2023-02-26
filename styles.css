@@ -35,12 +35,16 @@ body {
       padding: 0.2rem;
       display: block;
     }
-    li > a {
 
+li > a {
  color:white;
-
+ text-decoration:none;
 }
-
+nav > ul > li:hover {
+cursor:pointer;
+color:#1b1b32;
+background-color:#dfdfe2;
+}
     h1 ,h2 {
       font-family: Verdana, sans-serif;
     }
