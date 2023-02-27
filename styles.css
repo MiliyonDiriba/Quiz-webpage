@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
 body {
     background: #f5f6f7;
     color: #1b1b32;
@@ -136,6 +141,14 @@ footer {
   display: flex;
   justify-content: center;
 }
+footer,
+footer a {
+  color: #dfdfe2;
+}
+address {
+  text-align: center;
+  padding: 0.3em;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -147,3 +160,6 @@ footer {
   white-space: nowrap;
   border: 0;
       }
+* {
+  scroll-behavior: smooth;
+}
